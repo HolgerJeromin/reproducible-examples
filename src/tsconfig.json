@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json.schemastore.org/tsconfig",
+  "references": [{"path": "../nonmodule"}],
+  "compilerOptions": {
+    "module": "es2022",
+    "target": "ES2022",
+    "types": [],
+
+    "strict": true
+  },
+  "files": ["main.ts"]
+} 

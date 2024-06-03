@@ -1,0 +1,1 @@
+let _foo = myNamespace.version;
