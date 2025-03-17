@@ -1,8 +1,9 @@
 {
   "$schema": "http://json.schemastore.org/tsconfig",
   "compilerOptions": {
-    "module": "None",
+    "module": "ES2022",
     "target": "ES2022",
+    "lib": ["ES2015", "DOM"],
     "types": [],
 
     "strict": true

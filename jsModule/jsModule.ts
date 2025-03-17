@@ -1,3 +1,5 @@
 export class TreeView {
-  constructor() {}
+  constructor() {
+    Promise.allSettled([]);
+  }
 }
