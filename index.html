@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>zooming svg text</title>
+    <style>
+      [popover]:popover-open {
+        transform: scale(1);
+      }
+      @starting-style {
+        [popover]:popover-open {
+          transform: scale(0);
+        }
+      }
+      [popover] {
+        transition: transform 0.5s, display 0.5s allow-discrete;
+      }
+    </style>
+  </head>
+
+  <body>
+    <button popovertarget="popoverDiv">Click me!</button>
+    <div popover="auto" id="popoverDiv" style="width: 90%; height: 90%">
+      <button popovertarget="popoverDiv">Close</button>
+      <svg style="width: 100%; height: 90%; touch-action: none">
+        <text text-anchor="middle" x="50%" y="50%">
+          Zoomed text before tab/repaint?
+        </text>
+      </svg>
+    </div>
+  </body>
+</html>
