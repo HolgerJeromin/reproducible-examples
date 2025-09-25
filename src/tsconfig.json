@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json.schemastore.org/tsconfig",
+  "compileOnSave": true,
+  "compilerOptions": {
+    "module": "ES2022",
+    "target": "ES2022",
+    "lib": ["ES2022"],
+    "types": [],
+    "noEmitOnError": true,
+    "strict": true,
+    "paths": {
+      "bare-name": ["../include/TreeView.js"],
+      "dir-name/*": ["../include/*"]
+    },
+    "rootDir": ".."
+  },
+  "files": ["main.ts"]
+}

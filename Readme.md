@@ -1,7 +1,6 @@
-# Minimal examples for ts issues
+# repo steps
 
-This is repository with some project regarding Typescript or other projects issues.
+Checkout repository.
 
-https://github.com/microsoft/TypeScript/issues?q=author%3AHolgerJeromin
-
-See the [branches](https://github.com/HolgerJeromin/reproducible-examples/branches) for details.
+Open file in VSCode and open [`src/main.ts`](src/main.ts).
+All four import lines should show `TreeView` datatype in intellisense.
